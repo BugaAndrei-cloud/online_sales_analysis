@@ -1,0 +1,5 @@
+# Ignoră fișierul config.json
+config.json
+
+# Ignoră capturile de ecran
+screenshots/
