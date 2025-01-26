@@ -2,11 +2,9 @@ from product import Product
 from product_manager import ProductManager
 
 manager = ProductManager()
-
-# Adăugăm produse
-manager.add_product(Product("Laptop", 1500, 10))
-manager.add_product(Product("Mouse", 25, 100))
-manager.add_product(Product("Keyboard", 45, 50))
+manager.add_product(Product("Smartphone", 800, 15))
+manager.add_product(Product("Headphones", 50, 200))
+manager.add_product(Product("Charger", 20, 100))
 
 # Afișăm produsele și valoarea totală
 manager.display_products()
